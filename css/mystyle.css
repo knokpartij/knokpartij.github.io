@@ -109,8 +109,8 @@ footer {
 
 .articles-list {
   margin: auto;
-  width: 20%;
-  min-width: 250px;
+  width: fit-content;
+  max-width: 365px;
 }
 
 .articles-list > a {
