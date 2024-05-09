@@ -7,7 +7,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
     <header>
         <a class="header_logotext" href="/index.html">
-            <img src="img/knoklogonotext.png" alt="Knokpartij logo" style="height: 150px;">
+            <img src="/img/knoklogonotext.png" alt="Knokpartij logo" style="height: 150px;">
             <h1>
                 De Knokpartij
             </h1>

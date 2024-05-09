@@ -103,17 +103,25 @@ footer {
   font-size: 50px;
 }
 
+.undertitle {
+  text-align: center;
+}
+
 .articles-list {
-  display: flex;
-  justify-content: left;
   margin: auto;
   width: 20%;
 }
 
 .articles-list > a {
   color: var(--text_colour);
+  width: 100%;
+  text-decoration: none;
 }
 
 .articles-list > a:hover {
   color: var(--button_colour);
+}
+
+.articles-list > a > p {
+  text-align: justify;
 }

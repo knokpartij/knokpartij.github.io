@@ -8,7 +8,7 @@ class Footer extends HTMLElement {
     <hr></hr>
     <footer>
         <div class="header_logotext">
-            <img src="img/knoklogonotext.png" alt="Knokpartij logo" style="height: 150px;">
+            <img src="/img/knoklogonotext.png" alt="Knokpartij logo" style="height: 150px;">
             <h1>
                 De Knokpartij
             </h1>
