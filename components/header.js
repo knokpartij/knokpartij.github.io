@@ -9,7 +9,7 @@ class Header extends HTMLElement {
         <a class="header_logotext" href="/index.html">
             <img src="/img/knoklogonotext.png" alt="Knokpartij logo" style="height: 150px;">
             <h1>
-                De Knokpartij
+                Knokpartij
             </h1>
         </a>
         <a class="header_link" href="/index.html">
@@ -21,9 +21,9 @@ class Header extends HTMLElement {
         <a class="header_link" href="/lijst.html">
             <h1>Lijst</h1>
         </a>
-        <a class="header_link" href="/over-ons.html">
+        <!-- <a class="header_link" href="/over-ons.html">
             <h1>Over ons</h1>
-        </a>
+        </a> -->
     </header>
     <hr></hr>
     `;
