@@ -1,4 +1,11 @@
 @import url(colours.css);
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+.questrial-regular {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'LEMONMILK-Regular';
@@ -8,12 +15,12 @@
 
 body {
   background-color: var(--bg_colour);
-  font-family: "LEMONMILK-Regular", sans-serif;
+  font-family: "Questrial", sans-serif;
   color: var(--text_colour);
 }
 
 p {
-  font-size: 14px;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -26,6 +33,7 @@ p > a:hover {
 }
 
 header {
+  font-family: "LEMONMILK-Regular", sans-serif;
   margin: auto;
   text-align: center;
   padding-bottom: 5px;
@@ -95,15 +103,17 @@ footer {
 
 .text-content > p {
   text-align: justify;
-  font-size: 18px;  
+  font-size: 24px;  
 }
 
 .page-header {
   text-align: center;
+  font-family: "LEMONMILK-Regular", sans-serif;
   font-size: 40px;
 }
 
 .undertitle {
+  font-family: "LEMONMILK-Regular", sans-serif;
   text-align: center;
 }
 
@@ -136,4 +146,12 @@ footer {
 .list-entry > p {
   text-align: justify;
   font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-family: "LEMONMILK-Regular", sans-serif;
+}
+
+ul {
+  font-size: 20px;
 }
